@@ -1,0 +1,85 @@
+<div id="func_add">
+    <div class="row">
+        <div class="role_Manager">
+        	<div class="col-lg-12">
+          <div class="portlet-title">
+                <div class="caption"><i class="icon-user"></i>权限管理</div>
+                <div class="actions">
+                  <a href="#" class="btn blue"><i class="icon-pencil"></i> Add</a>
+                  <div class="btn-group">
+                    <a class="btn green" href="#" data-toggle="dropdown">
+                    <i class="icon-cogs"></i> Tools
+                    <i class="icon-angle-down"></i>
+                    </a>
+                    <ul class="dropdown-menu pull-right">
+                      <li><a href="#"><i class="icon-pencil"></i> Edit</a></li>
+                      <li><a href="#"><i class="icon-trash"></i> Delete</a></li>
+                      <li><a href="#"><i class="icon-ban-circle"></i> Ban</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#"><i class="i"></i> Make admin</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+    			<div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div>
+                          新增角色
+                        </div>
+                        <div>
+                          
+                        </div>
+                    </div>
+                    <!-- /.panel-heading -->
+                    <div class="panel-body">
+                       <form class="form-inline" role="form" id="role_form"> 
+                          <input type="hidden" class="form-control" name="action_type" id="action_type" value="create">
+
+                          <div class="form-group"> 
+                           <!-- Text input--> 
+                           <label for="role_code">角色代码</label> 
+                            <input type="text" class="form-control" placeholder="角色代码" class="input-xlarge" id="role_code"/> 
+                          </div> 
+                          <div class="form-group"> 
+                           <!-- Text input--> 
+                            <label for="role_name">角色名称</label> 
+                            <input type="text" class="form-control" placeholder="角色名称" class="input-xlarge" id="role_name"/> 
+                          </div> 
+
+                          <div class="form-group"> 
+                           <label>权限</label> 
+                           <!-- Multiple Checkboxes --> 
+                           <div class="controls"> 
+                            <div class="col-md-6">
+                              <!-- Inline Checkboxes --> 
+                              <label class="checkbox inline"> <input type="checkbox" value="工程端APP" /> 工程端APP </label> 
+                              <label class="checkbox inline"> <input type="checkbox" value="维护端APP" /> 业务录入员 </label> 
+                              <label class="checkbox inline"> <input type="checkbox" value="用户端APP" /> 用户端APP </label> 
+                              <label class="checkbox inline"> <input type="checkbox" value="业务录入员" /> 业务管理员</label> 
+                              <label class="checkbox inline"> <input type="checkbox" value="业务管理员" /> 维护端APP </label> 
+                              <label class="checkbox inline"> <input type="checkbox" value="业务查询员" /> 业务查询员 </label> 
+                              <label class="checkbox inline"> <input type="checkbox" value="Mis管理员" /> Mis管理员 </label>
+                            </div> 
+                           </div> 
+                          </div> 
+                          <div class="form-group"> 
+                           <!-- Textarea --> 
+                            <label>备注</label> 
+                            <div class="textarea"> 
+                             <textarea class="form-control" rows="6"> </textarea> 
+                            </div> 
+                          </div> 
+                        </form> 
+                    </div>
+                    <!-- /.panel-body -->
+                </div>
+                <!-- /.panel -->
+            </div>
+            <!-- /.col-lg-12 -->
+    	</div>
+        <!-- role_Manager -->
+    </div>
+    <!-- row -->
+</div>
+<!-- role_add -->

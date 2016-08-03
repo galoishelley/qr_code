@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- DataTables CSS -->
+    <link href="../bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+
+    <!-- DataTables Responsive CSS -->
+    <link href="../bower_components/datatables-responsive/css/dataTables.responsive.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- User CSS -->
+    <link href="../css/user.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<div id="wrapper">
+
+	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+	  	<div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="index.html">MIS基础数据管理系统</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">您有1新报修未处理 <span class="sr-only">(current)</span></a></li>
+                <!-- <div class="col-md-6"> -->
+				<form class="navbar-form navbar-left" role="search">
+					<div class="input-group custom-search-form">
+<!-- 						<input type="hidden" class="form-control" name="action_type" id="action_type_top" value="view"> -->
+						<input type="text" class="form-control" name="search_con" id="search_con" placeholder="权限代码或权限名称">
+					    <span class="input-group-btn">
+					    <button class="btn btn-default" type="button" id="btnTop">
+					        <i class="fa fa-search"></i>
+					    </button>
+					    </span>
+					</div>
+				</form>	
+                <!-- </div> -->
+				<!-- <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Link</a></li> 
+                    <li class="dropdown">
+                      <a href="">用户名 <i class="glyphicon glyphicon-user"></i> <i class="fa fa-caret-down"></i></a>
+                                    </li>
+                </ul>
+                              </ul> -->
+
+              <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="#" id="UserName"><i class="fa fa-user fa-fw"></i>User Name</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+
+		    </div><!-- /.navbar-collapse -->
+	  	</div><!-- /.container-fluid -->
+
+		
+
+        <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li>
+                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> 用户管理</a>
+                        </li>
+                         <li>
+                            <a href="func.html"><i class="fa fa-dashboard fa-fw"></i> 权限管理</a>
+                        </li>
+                        <li>
+                            <a href="role.html"><i class="fa fa-dashboard fa-fw"></i> 角色管理</a>
+                        </li>
+                         <li>
+                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> 日志管理</a>
+                        </li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> 设备类别管理</a>
+                        </li>
+                         <li>
+                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> 类别属性管理</a>
+                        </li>                        
+                        
+                        <li>
+                            <a href="#"><i class="fa fa-files-o fa-fw"></i>数据库管理<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="blank.html">Blank Page</a>
+                                </li>
+                                <li>
+                                    <a href="login.html">Login Page</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+	</nav>
+	<!-- navbar -->
+	<div id="page-wrapper">
+	    <div class="row">
+            <div class="func_Manager">
+    	    	<div class="col-lg-12">
+    				<div class="panel panel-default">
+                        <div class="panel-heading">
+                            权限管理
+                            <button id="addRow">+</button>
+                            <button id="delRow">-</button>
+                            <button id="updRow">*</button>
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="dataTable_wrapper">
+                                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                    <thead>
+                                        <tr>
+                                            <th style="padding-left:8px; width:8px;"></th>
+                                            <th style="padding-left:8px; width:8px;"><input type="checkbox" id="func_chk_all"></th>
+                                            <th>权限代码</th>
+                                            <th>权限名称</th>
+                                            <th>备注</th>
+                                            <!-- <th>UPDATE_DATE</th> -->
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th></th>
+                                            <th></th>
+                                            <th>权限代码</th>
+                                            <th>权限名称</th>
+                                            <th>备注</th>
+                                            <!-- <th>UPDATE_DATE</th> -->
+                                        </tr>
+                                    </tfoot>                                    
+                                </table>
+                            </div>
+                            <!-- /.table-responsive -->
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-12 -->
+        	</div>
+            <!-- role_Manager -->
+        </div>
+        <!-- row -->
+	</div>
+	<!-- page-wrapper -->
+</div>
+<!-- /#wrapper -->
+
+<!-- jQuery -->
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- Metis Menu Plugin JavaScript -->
+<script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+<!-- DataTables JavaScript -->
+<script src="../bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
+<script src="../bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="../dist/js/sb-admin-2.js"></script>
+
+<!-- Page-Level Demo Scripts - Tables - Use for reference -->
+<script src="../js/func.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<div id="func_add">
+    <div class="row">
+        <div class="func_Manager">
+        	<div class="col-lg-12">
+    			<div class="panel panel-default">
+                    <div class="panel-heading">
+                        新增权限
+                    </div>
+                    <!-- /.panel-heading -->
+                    <div class="panel-body">
+                        <form class="form-horizontal" role="form" id="func_form">
+                           <input type="hidden" class="form-control" name="action_type" id="action_type" value="create">
+                           <div class="form-group">
+                              <label for="firstname" class="col-sm-2 control-label">权限编码</label>
+                              <div class="col-sm-8">
+                                 <input type="text" class="form-control" name="func_code" id="func_code"
+                                    placeholder="请输入权限编码" maxlength="20" value="001">
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <label for="lastname" class="col-sm-2 control-label">权限名称</label>
+                              <div class="col-sm-8">
+                                 <input type="text" class="form-control" name="func_name" id="func_name"
+                                    placeholder="请输入权限名称" maxlength="50" value="管理员" >
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <label for="mark" class="col-sm-2 control-label">备注</label>
+                              <div class="col-sm-8">
+                                 <textarea class="form-control" rows="3" name="note" id="note" maxlength="100" placeholder="请输入备注"></textarea>
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <div class="col-sm-offset-2 col-sm-10">
+                                 <a href="#" class="btn btn-default" id="func_add_cancel">返回</a>
+                                 <a href="#" class="btn btn-default" id="func_add_reset" >重置输入</a>
+                                 <a href="#" class="btn btn-primary" id="func_add_submit">确定</a>
+                              </div>
+                           </div>
+                        </form>
+                    </div>
+                    <!-- /.panel-body -->
+                </div>
+                <!-- /.panel -->
+            </div>
+            <!-- /.col-lg-12 -->
+    	</div>
+        <!-- role_Manager -->
+    </div>
+    <!-- row -->
+</div>
+<!-- role_add -->

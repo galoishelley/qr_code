@@ -1,0 +1,153 @@
+#search_con{
+	background-color: #bababa;
+	color: #FFFFFF;
+}
+
+/*nav{
+	height:50;
+}*/
+
+.panel{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*border: 0px;*/
+}
+
+
+.sidebar{
+	width: 210px;
+	margin-top: 0px;
+}
+
+.sidebar ul li{
+	height:40px;
+}
+
+/***public end****/
+
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+.navbar-brand{
+	width: 210px;
+	background-color: #063190;
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand{
+	/*background-color: #063190;*/
+	color: #FFFFFF;
+}
+
+.navbar-default .navbar-brand:focus, 
+.navbar-default .navbar-brand:hover{
+	background-color: #063190;
+	color: #FFFFFF;
+}
+
+/*.qr_con{
+	margin: 5px 10px;
+	border: 1px solid #e7e7e7;
+	background-color: #FFFFFF;
+}*/
+
+.navbar-form .input-group{
+	width: 450px;
+}
+
+#page-wrapper{
+	padding: 0px 10px;
+	background-color: transparent;
+	margin:0 0 0 210px;
+}
+
+.func_Manager .panel-body {
+    padding: 3px;
+}
+
+.func_Manager .panel-heading{
+	border-bottom: 0px solid transparent; 
+	border-top: 1px solid transparent; 
+	border-right: 1px solid transparent; 
+	border-left: 1px solid transparent; 
+	background-color: #063190;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+}
+.func_Manager table{
+	margin-bottom: 0px;
+}
+
+.selected{
+	background-color: #B0BED9;
+}
+
+tbody tr:hover.selected {
+    background-color: #aab7d1;
+}
+
+tbody tr.odd.selected {
+    background-color: #acbad4;
+}
+
+/******role_add.html******/
+#role_add p.help-block{
+	color: red;
+}
+
+#role_add .btn_all{
+	float: right;
+}
+
+#func_add_reset{
+	/*visibility: hidden;*/
+	display: none;
+}
+
+/*element.style{
+	width: auto;
+}*/
+
+/*#dataTables-example{
+	padding: 1px 1px;
+}*/
+
+/*********role*************/
+
+
+.role_Manager .panel-body {
+    padding: 30px;
+}
+
+.role_Manager .panel-heading{
+	border-bottom: 0px solid transparent; 
+	border-top: 1px solid transparent; 
+	border-right: 1px solid transparent; 
+	border-left: 1px solid transparent; 
+	background-color: #063190;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+}
+.role_Manager table{
+	margin-bottom: 0px;
+}
+
+.role_Manager .form-group{
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+.role_Manager .checkbox{
+	margin-left: 50px;
+	margin-bottom: 10px;
+}
+
+.role_Manager textarea{
+
+}
+
+.panel-heading-right{
+	margin:0 600;
+}
